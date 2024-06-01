@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background: #1f1f1f;
+    color: #e0e0e0;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li#products a {
+    color: #e0e0e0;
+    font-weight: bold;
+}
+
+header nav ul li#products a:hover {
+    color: #bb86fc;
+}
+
+header nav ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #bb86fc;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+#home {
+    background: #1f1f1f;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+
+#products ul {
+    list-style: none;
+    padding: 0;
+}
+
+.product-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8a2be2; /* Change button color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product-button:hover {
+    background-color: #9932cc; /* Darker color on hover */
+}
+
+#contact p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#contact a {
+    color: #bb86fc;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #1f1f1f;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.empty-space {
+    margin-bottom: 100px;
+}
+
+.preview-image {
+    width: 100%; /* Set the width to 100% of its container */
+    max-width: 600px; /* Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+}
